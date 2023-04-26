@@ -120,21 +120,21 @@ body {
 
 .kv.__index {
     height: 768px;
-    background-image: url(../img/kv.jpg);
+    background-image: url(kv.jpg);
     background-size: cover;
     object-fit: contain;
 }
 
 .kv.__about {
     height: 500px;
-    background-image: url(../img/kv.jpg);
+    background-image: url(kv.jpg);
     background-size: cover;
     object-fit: contain;
 }
 
 .kv.__works {
     height: 500px;
-    background-image: url(../img/kv.jpg);
+    background-image: url(kv.jpg);
     background-size: cover;
     object-fit: contain;
 }
