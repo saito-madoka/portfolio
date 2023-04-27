@@ -276,6 +276,7 @@ ul {
     width: 300px;
     height: 250px;
     list-style: none;
+    background-color: #fffffff8;
 }
 
 .works-item {
