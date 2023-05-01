@@ -185,7 +185,10 @@
         <div class="contact-txt">
             <p class="please">お気軽にお問合せください！</p>
         </div>
-        <form action="">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="e9c2d7e5-c46b-497c-a720-972258ce970f">
+            <input type="hidden" name="subject" value="">
+            <input type="hidden" name="redirectTo" value="https://saito-madoka.github.io/portfolio/thanks.html">
             <table class="contact-table">
                 <tr>
                     <th class="contact-item">名前</th>
@@ -260,3 +263,29 @@
    </footer>
 </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script>
+$(function () {
+  $("#contactForm").validate({
+    rules: {
+      name: {
+        required: "*お名前を入力してください", // 入力必須チェック
+        rangelength: [1, 50], // 最小１文字、最大５０文字
+      },
+      email: {
+        required: "*メールアドレスを入力してください", // 入力必須チェック
+        email: "*正しいメールアドレス形式で入力してください", // メールアドレス形式チェック
+      },
+      tel {
+        required: "*電話番号を入力してください", // 入力必須チェック
+        rangelength: [1, 11], // 最小１文字、最大１１文字
+      },
+      message: {
+        required: "*メッセージを入力してください" // 入力必須チェック
+      }
+    }
+  });
+});
+</script>
