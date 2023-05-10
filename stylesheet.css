@@ -179,7 +179,6 @@ body {
     object-position: center;
 }
 
-/* Skills */
 /* skills */
 .skills-list {
     display: flex;
@@ -298,8 +297,14 @@ ul {
 }
 
 .work-name {
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
+    width: 90%;
     font-size: 18px;
+    margin: 0 auto;
+}
+
+.work-detail {
+    margin-top: 10px;
 }
 
 .btn {
@@ -410,7 +415,6 @@ ul {
     font-size: 36px;
 }
 .contact {
-    width: 960px;
     margin: 0 auto;
     padding: 60px 0;
 }
