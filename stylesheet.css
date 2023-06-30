@@ -112,6 +112,11 @@ body {
     margin-left: 40px;
 }
 
+.header-nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* kv */
 .kv {
     width: 100%;
@@ -519,6 +524,11 @@ ul {
 
 .footer-nav-item + .footer-nav-item {
     margin-left: 40px;
+}
+
+.footer-nav-item a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .footer .icon-list {
